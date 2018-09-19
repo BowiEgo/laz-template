@@ -1,0 +1,44 @@
+{
+  "name": "vue-easy-notice-bar",
+  "version": "1.1.2",
+  "description": "Vue.js 2+ notice-bar plugin",
+  "main": "dist/vue-easy-notice-bar.js",
+  "scripts": {
+    "build": "webpack --config build/webpack.prod.conf.js",
+    "test": "npm run unit"
+  },
+  "keywords": [
+    "Vue",
+    "Vue plugin",
+    "Vue 2",
+    "notice-bar",
+    "noticebar",
+    "vue noticebar"
+  ],
+  "author": "bowiego",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BowiEgo/vue-notice-bar.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "less-loader": "^4.1.0",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "less": "^3.8.1",
+    "vue": "^2.5.17"
+  }
+}
