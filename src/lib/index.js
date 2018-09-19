@@ -1,16 +1,10 @@
-import NoticeBar from './NoticeBar.vue'
-import NoticeBarVertical from './NoticeBarVertical.vue'
+import Example from './Example.vue'
 import '../assets/less/style.less'
 
-NoticeBar.install = function(Vue) {
-  Vue.component(NoticeBar.name, NoticeBar)
-}
-
-NoticeBarVertical.install = function(Vue) {
-  Vue.component(NoticeBarVertical.name, NoticeBarVertical)
+Example.install = function(Vue) {
+  Vue.component(Example.name, Example)
 }
 
 export {
-  NoticeBar,
-  NoticeBarVertical
+  Example
 }
