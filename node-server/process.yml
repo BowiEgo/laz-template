@@ -1,8 +1,0 @@
-apps:
-  - script   : app.js
-    instances: 4
-    exec_interpreter: babel-node
-    exec_mode: fork_mode
-    watch  : true
-    env    :
-      NODE_ENV: development
