@@ -1,13 +1,13 @@
 {
-  "name": "mini-mall",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "a nodejs mall back-end project",
+  "description": "{{ description }}",
   "main": "app.js",
   "scripts": {
     "start": "babel-node app.js",
     "debug": "babel-node --inspect-brk=9229 app.js"
   },
-  "author": "Bowiego",
+  "author": "{{ author }}",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

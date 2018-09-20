@@ -1,4 +1,4 @@
-## Node Server
+## {{ name }}
 
 ### 使用指南
 
